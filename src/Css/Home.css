@@ -1,0 +1,143 @@
+
+ .pic{
+
+  margin: 10px;
+  text-align: center;
+  border: 1px solid black;
+  width: 40%;
+  margin-left: 20px;
+  margin-right: 20px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  background-color: black;
+}
+body{
+  display: inline;
+  flex-direction: row;
+  
+}
+.product{
+  display: flex; 
+flex-wrap: wrap; 
+justify-content: space-between;
+align-items: flex-start;
+
+
+}
+.pic>.BTN{
+  margin-bottom: 20PX;
+  background-color: white;
+  border: none;
+}
+.pic>.BTN:hover{
+  border: 1PX solid black;
+  border-radius: 20px;
+}
+
+.product h3{
+  color: hsl(213.77deg 89.96% 53.14%);
+  display: flex;
+  padding: 10px;
+}
+.product .h{
+ text-align: center;
+}
+
+.boxes h2{
+  color:  hsl(213.77deg 89.96% 53.14%);
+  display: flex;
+  padding: 10px;
+}
+
+.boxes h3{
+  font-size: 15px;
+}
+.product img{
+border: 1px solid black;
+border-radius: 50px;
+padding: 20px;
+margin-top: 10px;
+}
+.product h4{
+  color: white;
+}
+.BACK{
+    display: flex;
+    justify-content: space-around;
+    background-color:  rgb(219, 215, 215);
+    margin-top: 15px;
+    padding: 15px;
+}
+.BACK>.back>li{
+    list-style-type: none;
+}
+.BACK>.back>h5{
+    padding: 18px;
+    text-align: center;
+}
+.BACK>.back>img{
+    padding: 3px;
+    flex-direction: row;
+    margin-top: -25px;
+    margin-left: 1px;
+}
+.BACK>.back>li>.icon{
+margin-left: 10px;
+margin-top: -35px;
+  
+}
+.boxes{
+  background-color: black;
+  margin: 10px;
+    text-align: center;
+    
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    
+}
+.boxes img{
+  display: block;
+
+  margin: auto;
+  border: 1px solid black;
+border-radius: 50px;
+padding: 20px;
+margin-top: 10px;
+
+}
+.boxes h3{
+  color: white;
+}
+.boxes h4{
+  color: white;
+}
+
+@media (max-width: 480px){
+  
+      .BACK {
+        flex-direction: column;
+        align-items: center;
+      }
+    
+      .BACK > .back > h5 {
+        padding: 10px;
+      }
+    
+      .BACK > .back > img {
+        margin-top: -15px; 
+        margin-left: 0;
+        max-width: 100%; 
+      }
+    
+      .BACK > .back > li > .icon {
+        margin-left: 5px; 
+        margin-top: -20px; 
+      }
+}
+
+
+
+h1{
+  text-align: center;
+}
